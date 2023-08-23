@@ -1,0 +1,93 @@
+.toolbar a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+.toolbar{
+    height: 50px;
+}
+.maincontent {
+    background-image: url(images/phishingbg.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 300px;
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+}
+.textcontent {
+    color: white;
+    padding: 12px;
+}
+
+.btncontent a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: larger;
+}
+.btncontent a {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(116, 153, 233); 
+    color: #fff;
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.btncontent a:hover {
+    background-color: #0056b3; 
+}
+.infocontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    flex: 1; 
+}
+
+
+/* URL page and mail page CSS*/
+.content{
+    height: 400px;
+    background-color: rgb(101, 129, 224);
+    margin-top: 8%;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.url-input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; 
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 25%;
+}
+
+.url-input::placeholder {
+    color: #024bb8;
+    font-style: italic;
+}
+
+
+
+/* for laptop screen */
+@media (min-width: 768px) {
+    .maincontent {
+        margin-top: 5%;
+        background-size: 100%;
+    }
+    .url-input {
+        margin-top: 3%;
+    }
+}
